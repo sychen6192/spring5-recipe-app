@@ -1,4 +1,4 @@
-package guru.springframework.spring5_recipe_app;
+package guru.springframework;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
