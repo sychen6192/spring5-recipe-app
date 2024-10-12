@@ -66,6 +66,20 @@
 			<version>5.9.2</version>
 			<scope>test</scope>
 		</dependency>
+			<!-- 如果你使用 SLF4J，确保添加以下依赖 -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.7.30</version> <!-- 请根据你的项目需要选择合适的版本 -->
+			</dependency>
+
+			<!-- Logback 作为 SLF4J 的实现 -->
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+				<version>1.2.3</version>
+			</dependency>
+
 
 	</dependencies>
 
